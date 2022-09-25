@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+<body>
+    <div class="parent">
+            <div class="main">
+                <div class="container">
+                    <p class="heading">Metric/Imperial Unit Conversion</p>
+                    <input type="text" id="ans" placeholder="1">
+                    <button id="convert">Convert</button>
+                </div>
+                <div class="secondary">
+                    <section class="length">
+                        <p class="unit-title">Length (Meter/Feet)</p>
+                        <p id="converted-unit">1 meter = 3.281 feet | 1 foot = 0.304 meters</p>
+                    </section>
+                    <section class="volume">
+                        <p class="unit-title">Volume (Litre/Gallons)</p>
+                        <p id="converted-unit">1 litre = 0.264 gallons | 1 gallon = 3.785 litres</p>
+    
+                    </section>
+                    <section class="mass">
+                        <p class="unit-title">Mass (Kilograms/Pounds)</p>
+                        <p id="converted-unit">1 kilogram = 2.204 pounds | 1 pound = 0.453 kilograms</p>
+    
+                    </section>
+                </div>
+            </div>
+            
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
