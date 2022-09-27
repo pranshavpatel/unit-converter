@@ -1,2 +1,4 @@
 # unit-converter
- Convert MKS units to FPS units
+```
+- A project to convert metric units to imperial units
+```
